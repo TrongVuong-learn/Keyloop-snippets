@@ -1,0 +1,31 @@
+{
+    "name": "Keyloop Theme",
+    "type": "light",
+    "colors": {
+      "editor.foreground": "#fff",
+      "editor.background": "#20292e",
+      "editorCursor.foreground": "#aaa",
+      "editor.lineHighlightBackground": "#435661"
+    },
+    "tokenColors": [
+      {
+        "scope": [
+          "keyword",
+          "keyword.control"
+        ],
+        "settings": {
+          "foreground": "#54606a"
+        }
+      },
+      {
+        "scope": [
+          "variable",
+          "variable.other"
+        ],
+        "settings": {
+          "foreground": "#ccc"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,24 @@
+{
+    // MARK: Mixins
+    "direction mixin left": {
+        "prefix": "dml",
+        "body": [
+            ".direction-mixin(left; )"
+        ],
+        "description": "direction mixin left"
+    },
+    "direction mixin right": {
+        "prefix": "dmr",
+        "body": [
+            ".direction-mixin(right; )"
+        ],
+        "description": "direction mixin right"
+    },
+    "letter spacing mixin": {
+        "prefix": "lsm",
+        "body": [
+            ".letter-spacing-mixin()"
+        ],
+        "description": "letter spacing mixin"
+    }
+}

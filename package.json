@@ -1,0 +1,51 @@
+{
+  "name": "keyloop-snippets",
+  "displayName": "keyloop-snippets",
+  "description": "Help you write CSS code quickly",
+  "version": "0.0.1",
+  "icon": "./images/logo.png",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "less",
+        "path": "./snippets/collections.code-snippets"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/css-properties.code-snippets"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/mixins.code-snippets"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/hooks.code-snippets"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/templates.code-snippets"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Keyloop Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/keyloop-themes.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "keyloopkeyloop-icon-theme",
+        "label": "Keyloop Theme",
+        "path": "./themes/keyloop-icons.json"
+      }
+    ]
+  }
+}

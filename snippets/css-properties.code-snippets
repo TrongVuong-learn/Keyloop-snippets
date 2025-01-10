@@ -1,0 +1,51 @@
+{
+    // MARK: CSS
+    "centre with flexbox": {
+        "prefix": "f-center",
+        "body": [
+            "display: flex;",
+            "align-items: center;",
+            "justify-content: center;"
+        ],
+        "description": "centre with flexbox"
+    },
+    "centre with absolute": {
+        "prefix": "abs-center",
+        "body": [
+            "position: absolute;",
+            "top: 50%;",
+            ".direction-mixin(left; 50%);",
+            "transform: translate(-50%, -50%);"
+        ],
+        "description": "centre with absolute"
+    },
+    "pseudo elements reset": {
+        "prefix": "pseudo-reset",
+        "body": [
+            "content: \"\";",
+            "height: 100%;",
+            "width: 100%;",
+            "position: absolute;",
+            "inset: 0;"
+        ],
+        "description": "pseudo elements reset"
+    },
+    "more than 2 transitions": {
+        "prefix": "2-transitions",
+        "body": [
+            "transition-property: color, background-color;",
+            "transition-duration: @vars__transition--speed;",
+            "transition-timing-function: @vars__transition--timing-function;"
+        ],
+        "description": "more than 2 transitions"
+    },
+    "1 transition": {
+        "prefix": "1-transition",
+        "body": [
+            "transition: all @vars__transition--speed @vars__transition--timing-function;"
+        ],
+        "description": "1 transition"
+    }
+}
+
+// them css reset, reset file

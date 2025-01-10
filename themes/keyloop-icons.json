@@ -1,0 +1,13 @@
+{
+  "iconDefinitions": {
+    "folder": {
+      "iconPath": "./icons/folder.svg"
+    },
+    "folder-special": {
+      "iconPath": "./icons/folder-special-icon.svg"
+    }
+  },
+  "folderNames": {
+    "special-folder": "keyloop-snippets"
+  }
+}

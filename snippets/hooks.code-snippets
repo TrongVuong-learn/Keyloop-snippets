@@ -1,0 +1,35 @@
+{
+    // MARK: Mobile
+    "responsive: mobile": {
+        "prefix": "hkxs",
+        "body": [
+            ".hook-responsive-xs() {",
+            "}"
+        ],
+        "description": "responsive: mobile"
+    },
+    "responsive: moblie small": {
+        "prefix": "hkxxsmax",
+        "body": [
+            ".hook-responsive-xxs-max() {",
+            "}"
+        ],
+        "description": "responsive: moblie small"
+    },
+    "responsive: moblie only": {
+        "prefix": "hkxsmax",
+        "body": [
+            ".hook-responsive-xs-max() {",
+            "}"
+        ],
+        "description": "responsive: moblie only"
+    },
+    // MARK: Tablet
+
+    // MARK: 
+
+    // MARK: Desktop
+
+    // MARK: Large desktop
+
+}
